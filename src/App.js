@@ -9,7 +9,7 @@ export default function App() {
       humidity: '45%',
       windSpeed: '10 km/h',
     },
-    London: { temperature: '15°C', humidity: '70%', windSpeed: '20 km/h' },
+    'London': { temperature: '15°C', humidity: '70%', windSpeed: '20 km/h' },
   };
 
   const [cities, setCities] = useState([]);
